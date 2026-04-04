@@ -1,0 +1,36 @@
+artifact:
+  paper_title: ""
+  venue: ""
+  version: ""
+  contact: ""
+
+manuscript:
+  main_pdf: "paper.pdf"
+  appendix_pdf: "appendix.pdf"
+
+code:
+  repository_url: ""
+  commit_sha: ""
+  environment_lockfile: ""
+
+results:
+  main_tables:
+    - id: "table-1"
+      source_file: "results/main.csv"
+  figures:
+    - id: "figure-1"
+      source_file: "figures/figure1.png"
+
+artifacts:
+  datasets:
+    - name: ""
+      version: ""
+      license: ""
+  scripts:
+    - path: "scripts/run_main.sh"
+      purpose: "reproduce main table"
+
+availability:
+  code_statement: ""
+  data_statement: ""
+  archive_url: ""

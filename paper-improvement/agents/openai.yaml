@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Improvement"
+  short_description: "Strengthen manuscripts, evidence, and submission readiness"
+  default_prompt: "Use $paper-improvement to diagnose an academic paper, tighten claims, audit evidence and experiments, refresh related work, and prepare a submission-ready revision plan."
